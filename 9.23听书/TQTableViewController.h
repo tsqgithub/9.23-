@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TQTableViewController.h
 //  9.23听书
 //
 //  Created by 童裳强 on 15/9/23.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface TQTableViewController : UITableViewController
+
 
 
 @end
-

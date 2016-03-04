@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		5A4776961BB2719000BAA08E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4776951BB2719000BAA08E /* main.m */; };
 		5A4776991BB2719000BAA08E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4776981BB2719000BAA08E /* AppDelegate.m */; };
-		5A47769C1BB2719000BAA08E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A47769B1BB2719000BAA08E /* ViewController.m */; };
 		5A47769F1BB2719000BAA08E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A47769D1BB2719000BAA08E /* Main.storyboard */; };
 		5A4776A11BB2719000BAA08E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A4776A01BB2719000BAA08E /* Assets.xcassets */; };
 		5A4776A41BB2719000BAA08E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4776A21BB2719000BAA08E /* LaunchScreen.storyboard */; };
 		5A4776AF1BB2719000BAA08E /* __23__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4776AE1BB2719000BAA08E /* __23__Tests.m */; };
 		5A4776BA1BB2719000BAA08E /* __23__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4776B91BB2719000BAA08E /* __23__UITests.m */; };
+		5A4776E81BB272F100BAA08E /* TQTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4776E71BB272F100BAA08E /* TQTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		5A4776EC1BB2744F00BAA08E /* 一东.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A4776E91BB2744F00BAA08E /* 一东.mp3 */; settings = {ASSET_TAGS = (); }; };
+		5A4776ED1BB2744F00BAA08E /* 一东.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A4776EA1BB2744F00BAA08E /* 一东.plist */; settings = {ASSET_TAGS = (); }; };
+		5A4776EE1BB2744F00BAA08E /* Background.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5A4776EB1BB2744F00BAA08E /* Background.caf */; settings = {ASSET_TAGS = (); }; };
+		5A4776F51BB274ED00BAA08E /* TQWordModle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4776F41BB274ED00BAA08E /* TQWordModle.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,6 @@
 		5A4776951BB2719000BAA08E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5A4776971BB2719000BAA08E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A4776981BB2719000BAA08E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5A47769A1BB2719000BAA08E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5A47769B1BB2719000BAA08E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5A47769E1BB2719000BAA08E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A4776A01BB2719000BAA08E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A4776A31BB2719000BAA08E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,13 @@
 		5A4776B51BB2719000BAA08E /* 9.23听书UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "9.23听书UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A4776B91BB2719000BAA08E /* __23__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __23__UITests.m; sourceTree = "<group>"; };
 		5A4776BB1BB2719100BAA08E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A4776E61BB272F100BAA08E /* TQTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQTableViewController.h; sourceTree = "<group>"; };
+		5A4776E71BB272F100BAA08E /* TQTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQTableViewController.m; sourceTree = "<group>"; };
+		5A4776E91BB2744F00BAA08E /* 一东.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "一东.mp3"; sourceTree = "<group>"; };
+		5A4776EA1BB2744F00BAA08E /* 一东.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "一东.plist"; sourceTree = "<group>"; };
+		5A4776EB1BB2744F00BAA08E /* Background.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Background.caf; sourceTree = "<group>"; };
+		5A4776F31BB274ED00BAA08E /* TQWordModle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQWordModle.h; sourceTree = "<group>"; };
+		5A4776F41BB274ED00BAA08E /* TQWordModle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQWordModle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +110,11 @@
 		5A4776931BB2719000BAA08E /* 9.23听书 */ = {
 			isa = PBXGroup;
 			children = (
-				5A4776971BB2719000BAA08E /* AppDelegate.h */,
-				5A4776981BB2719000BAA08E /* AppDelegate.m */,
-				5A47769A1BB2719000BAA08E /* ViewController.h */,
-				5A47769B1BB2719000BAA08E /* ViewController.m */,
+				5A4776F21BB2748900BAA08E /* Other */,
+				5A4776EF1BB2745B00BAA08E /* modle */,
+				5A4776F11BB2746F00BAA08E /* Controller */,
+				5A4776F01BB2746700BAA08E /* View */,
 				5A47769D1BB2719000BAA08E /* Main.storyboard */,
-				5A4776A01BB2719000BAA08E /* Assets.xcassets */,
-				5A4776A21BB2719000BAA08E /* LaunchScreen.storyboard */,
-				5A4776A51BB2719000BAA08E /* Info.plist */,
 				5A4776941BB2719000BAA08E /* Supporting Files */,
 			);
 			path = "9.23听书";
@@ -117,6 +123,10 @@
 		5A4776941BB2719000BAA08E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5A4776A51BB2719000BAA08E /* Info.plist */,
+				5A4776E91BB2744F00BAA08E /* 一东.mp3 */,
+				5A4776EA1BB2744F00BAA08E /* 一东.plist */,
+				5A4776EB1BB2744F00BAA08E /* Background.caf */,
 				5A4776951BB2719000BAA08E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +148,42 @@
 				5A4776BB1BB2719100BAA08E /* Info.plist */,
 			);
 			path = "9.23听书UITests";
+			sourceTree = "<group>";
+		};
+		5A4776EF1BB2745B00BAA08E /* modle */ = {
+			isa = PBXGroup;
+			children = (
+				5A4776F31BB274ED00BAA08E /* TQWordModle.h */,
+				5A4776F41BB274ED00BAA08E /* TQWordModle.m */,
+			);
+			name = modle;
+			sourceTree = "<group>";
+		};
+		5A4776F01BB2746700BAA08E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5A4776F11BB2746F00BAA08E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A4776E61BB272F100BAA08E /* TQTableViewController.h */,
+				5A4776E71BB272F100BAA08E /* TQTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5A4776F21BB2748900BAA08E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5A4776A01BB2719000BAA08E /* Assets.xcassets */,
+				5A4776A21BB2719000BAA08E /* LaunchScreen.storyboard */,
+				5A4776971BB2719000BAA08E /* AppDelegate.h */,
+				5A4776981BB2719000BAA08E /* AppDelegate.m */,
+			);
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +248,7 @@
 		5A4776891BB2719000BAA08E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TQ;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = ellemoi_alami;
 				TargetAttributes = {
@@ -246,8 +293,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A4776ED1BB2744F00BAA08E /* 一东.plist in Resources */,
+				5A4776EC1BB2744F00BAA08E /* 一东.mp3 in Resources */,
 				5A4776A41BB2719000BAA08E /* LaunchScreen.storyboard in Resources */,
 				5A4776A11BB2719000BAA08E /* Assets.xcassets in Resources */,
+				5A4776EE1BB2744F00BAA08E /* Background.caf in Resources */,
 				5A47769F1BB2719000BAA08E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,7 +323,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A47769C1BB2719000BAA08E /* ViewController.m in Sources */,
+				5A4776E81BB272F100BAA08E /* TQTableViewController.m in Sources */,
+				5A4776F51BB274ED00BAA08E /* TQWordModle.m in Sources */,
 				5A4776991BB2719000BAA08E /* AppDelegate.m in Sources */,
 				5A4776961BB2719000BAA08E /* main.m in Sources */,
 			);
@@ -417,6 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "9.23听书/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ellemoi-alami.--23--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,6 +480,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "9.23听书/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ellemoi-alami.--23--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
